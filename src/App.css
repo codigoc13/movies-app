@@ -4,9 +4,9 @@
      text-align: center;
 }
 .container-movies{
-     display: flex;
+     display: grid;
      max-width: 1600px;
-     flex-wrap: wrap;
-     gap: 0.8rem;
      margin: 1.2rem auto 0;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     gap: 0.5rem;
 }
