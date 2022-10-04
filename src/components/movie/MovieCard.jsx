@@ -7,7 +7,7 @@ const MovieCard = ({  movieInfo }) => {
             <p>
                  {movieInfo.name}
             </p>
-            <img className='image' src={'https://image.tmdb.org/t/p/w600_and_h900_bestv2' + movieInfo.poster_path} alt={movieInfo.name} />
+            <img className='image' src={'https://image.tmdb.org/t/p/w500' + movieInfo.poster_path} alt={movieInfo.name} />
     </div>
   )
 }
