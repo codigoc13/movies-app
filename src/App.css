@@ -1,0 +1,12 @@
+*{
+     margin: 0;
+     box-sizing: border-box;
+     text-align: center;
+}
+.container-movies{
+     display: flex;
+     max-width: 1600px;
+     flex-wrap: wrap;
+     gap: 0.8rem;
+     margin: 1.2rem auto 0;
+}
