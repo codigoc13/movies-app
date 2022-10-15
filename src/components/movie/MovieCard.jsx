@@ -9,11 +9,9 @@ const MovieCard = ({ movieInfo }) => {
      return (
           <div className="card-movie">
                {
-                    image===null ? <img
-                         className="image"
-                         src="https://cdn.pixabay.com/photo/2017/11/24/10/43/ticket-2974645_960_720.jpg"
-                         alt={movieInfo.name}
-                    /> :
+                    image === null ? <div className="not-image">
+                         <p>Not Found</p>
+                    </div> :
                     <img
                          className="image"
                          src={`${PATH_URL}${image}`}

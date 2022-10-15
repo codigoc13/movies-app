@@ -48,7 +48,7 @@ const App = () => {
   return (
     <div>
       <header className="header-content">
-        <h1>Pelis Código C13</h1>
+        <h1 className="movie-title">Pelis Código C13</h1>
         <form onSubmit={searchMovies}>
           <input type="text" onChange={(e) => setSearchKey(e.target.value)} />
           <button type="submit">Submit</button>
