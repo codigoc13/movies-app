@@ -10,12 +10,20 @@
      font-weight: bolder;
 }
 
+.card-movie:hover {
+     cursor: pointer;
+     transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     -o-transform: scale(1.1);
+}
 .image {
      width: 200px;
 
 }
 
-.not-image{
+.not-image {
      width: 200px;
      display: flex;
      text-align: center;
