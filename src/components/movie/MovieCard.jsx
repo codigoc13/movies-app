@@ -5,7 +5,7 @@ const MovieCard = ({ movieInfo, selectMovie }) => {
      const image = movieInfo.poster_path ==="null"
           ? movieInfo.backdrop_path
           : movieInfo.poster_path
-     
+     // console.log(movieInfo)
      return (
           <div className="card-movie" onClick={() => selectMovie(movieInfo)}>
                {
@@ -15,7 +15,7 @@ const MovieCard = ({ movieInfo, selectMovie }) => {
                     <img
                          className="image"
                          src={`${PATH_URL}${image}`}
-                         alt={movieInfo.name}
+                              alt={movieInfo.title}
                     />
                }
                <p>{movieInfo.name}</p>
