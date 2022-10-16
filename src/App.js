@@ -94,9 +94,9 @@ const App = () => {
     <div>
       <header className="header-content">
         <h1 className="movie-title">Pelis Código C13</h1>
-        <form onSubmit={searchMovies}>
-          <input type="text" onChange={(e) => setSearchKey(e.target.value)} />
-          <button type="submit">Submit</button>
+        <form className="form-search" onSubmit={searchMovies}>
+          <input placeholder="Search..." className="input-search" type="text" onChange={(e) => setSearchKey(e.target.value)} />
+          <button className="button-search" type="submit">Submit</button>
         </form>
       </header>
       <div className="container-movie" style={{ backgroundImage: `url(${PATH_URL}${selectedMovie.backdrop_path})` }}>
