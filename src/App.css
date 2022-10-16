@@ -19,6 +19,7 @@ body {
 }
 
 .container-movie {
+     position: relative;
      min-height: 700px;
      background-position: top center;
      background-size: cover;
@@ -59,10 +60,29 @@ body {
      color: #ffcb05;
 }
 
+.close-trailer {
+    
+     position: absolute;
+     z-index: 0;
+     top: -48px;
+     /* left: 95%; */
+}
+
+.close-trailer:hover {
+     color: #ffcb05;
+}
+
 .description-movie {
      line-height: 1.5rem;
      font-size: 1.2rem;
      font-weight: 700;
+}
+
+.youtube-container {
+     position: relative;
+     left: 0;
+     right: 10px;
+
 }
 
 .container-movies {
